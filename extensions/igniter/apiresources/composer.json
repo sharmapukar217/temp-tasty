@@ -1,0 +1,24 @@
+{
+    "name": "acme/ti-ext-orderapi",
+    "type": "tastyigniter-extension",
+    "description": "API for managing orders.",
+    "authors": [
+        {
+            "name": "Acme Labs"
+        }
+    ],
+    "require": {
+        "tastyigniter/ti-ext-local": "*"
+    },
+    "extra": {
+        "tastyigniter-extension": {
+            "code": "acme.orderapi",
+            "name": "OrderApi",
+            "icon": {
+                "class": "fa fa-puzzle-piece",
+                "color": "#FFF",
+                "backgroundColor": "#ED561A"
+            }
+        }
+    }
+}

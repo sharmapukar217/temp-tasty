@@ -1,0 +1,57 @@
+{
+    "customer_id": 1,
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "john.doe@example.com",
+    "telephone": "1234567890",
+    "location_id": 1,
+    "address_id": 1,
+    "cart": [
+        {"product_id": 1, "quantity": 2},
+        {"product_id": 2, "quantity": 1}
+    ],
+    "total_items": 3,
+    "comment": "Sample order comment",
+    "payment": "cash",
+    "order_type": "delivery",
+    "order_total": 50.00,
+    "status_id": 1,
+    "ip_address": "192.168.1.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36",
+    "assignee_id": 1,
+    "assignee_group_id": 1,
+    "invoice_prefix": "INV-2024-",
+    "invoice_date": "2024-05-06",
+    "hash": "a03f16a9a57346742d8a9b16eb5c8941",
+    "processed": 0,
+    "status_updated_at": "2024-05-06 12:00:00",
+    "assignee_updated_at": "2024-05-06 12:00:00",
+    "order_time_is_asap": 1,
+    "delivery_comment": "Please deliver ASAP",
+    "order_menus": [
+        {
+            "menu_id": 1,
+            "name": "Menu 1",
+            "price": 2,
+            "quantity": 2,
+            "subtotal": 4,
+            "comment": "Menu 1 comment",
+            "menu_option_value_id": [
+                {"menu_option_value_id": 1, "quantity": 2},
+                {"menu_option_value_id": 2, "quantity": 1}
+            ]
+        },
+        {
+            "menu_id": 2,
+            "name": "Menu 2",
+            "price": 1,
+            "quantity": 1,
+            "subtotal": 1,
+            "comment": "Menu 2 comment",
+            "menu_option_value_id": [
+                {"menu_option_value_id": 1, "menu_option_value_id": 1, "quantity": 2},
+                {"menu_option_value_id": 2, "menu_option_value_id": 1, "quantity": 1}
+            ]
+        }
+    ]
+}
